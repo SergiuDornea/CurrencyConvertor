@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "CurrencyConvertor"
 include(":app")
+include (":model")
  
