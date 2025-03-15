@@ -1,4 +1,5 @@
 import com.android.build.gradle.LibraryExtension
+import com.cc.convention.configureKotlinAndroid
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -12,7 +13,7 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             }
 
             extensions.configure<LibraryExtension> {
-
+                configureKotlinAndroid(this)
             }
         }
     }

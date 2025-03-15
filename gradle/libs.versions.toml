@@ -20,7 +20,6 @@ androidxLifecycle = "2.7.0"
 room = "2.6.1"
 workVersion = "2.9.0"
 kotlinxCoroutines = "1.8.0"
-jetbrainsKotlinJvm = "1.9.22"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -72,6 +71,16 @@ mockito = { group = "org.mockito.kotlin", name = "mockito-kotlin", version = "5.
 androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version = "2.2.0" }
 
 [plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+room = { id = "androidx.room", version.ref = "room" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+moneyconvertor-android-library = { id = "moneyConvertor.android.library", version = "unspecified" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+moneyconvertor-jvm = { id = "moneyConvertor.jvm.library", version = "unspecified" }
+moneyconvertor-android-hilt = { id = "moneyConvertor.android.hilt", version = "unspecified" }
+moneyconvertor-android-compose = { id = "moneyConvertor.android.compose", version = "unspecified" }
+moneyconvertor-android-feature = { id = "moneyConvertor.android.feature", version = "unspecified" }
+moneyconvertor-android-room = { id = "moneyConvertor.android.room", version = "unspecified" }

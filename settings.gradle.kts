@@ -1,5 +1,5 @@
 pluginManagement {
-    include ("build-logic")
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -22,7 +22,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "CurrencyConvertor"
 include(":app")
-include (":core")
-include (":core:network")
-include (":core:ui")
-include(":build-logic:convention")
+include(":core")
+include(":core:network")
+include(":core:ui")

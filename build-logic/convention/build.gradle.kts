@@ -28,3 +28,12 @@ dependencies {
     compileOnly(libs.android.gradlePlugin)
     compileOnly(libs.kotlin.gradlePlugin)
 }
+
+gradlePlugin {
+    plugins {
+        register("androidLibrary") {
+            id = "currencyConvertor.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
+    }
+}
