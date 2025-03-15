@@ -1,7 +1,7 @@
 plugins {
-    id("currencyConvertor.android.library")
+    alias(libs.plugins.currencyconvertor.android.library)
 }
 
-android{
+android {
     namespace = "com.cc.network"
 }

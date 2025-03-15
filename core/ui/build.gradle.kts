@@ -1,5 +1,5 @@
 plugins {
-    id("currencyConvertor.android.library")
+    alias(libs.plugins.currencyconvertor.android.library)
 }
 
 android{

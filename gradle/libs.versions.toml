@@ -77,7 +77,7 @@ room = { id = "androidx.room", version.ref = "room" }
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-moneyconvertor-android-library = { id = "moneyConvertor.android.library", version = "unspecified" }
+currencyconvertor-android-library = { id = "currencyConvertor.android.library", version = "unspecified" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 moneyconvertor-jvm = { id = "moneyConvertor.jvm.library", version = "unspecified" }
 moneyconvertor-android-hilt = { id = "moneyConvertor.android.hilt", version = "unspecified" }
