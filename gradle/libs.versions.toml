@@ -20,6 +20,7 @@ androidxLifecycle = "2.7.0"
 room = "2.6.1"
 workVersion = "2.9.0"
 kotlinxCoroutines = "1.8.0"
+jetbrainsKotlinJvm = "1.9.22"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -73,3 +74,4 @@ androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", v
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

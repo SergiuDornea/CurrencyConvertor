@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.moneyconvertor"
+    namespace = "com.example.currencyconvertor"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.moneyconvertor"
+        applicationId = "com.example.currencyconvertor"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

@@ -1,0 +1,6 @@
+com.cc.ui-resValues-0 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\build\generated\res\resValues\release
+com.cc.ui-mergeReleaseResources-1 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.cc.ui-mergeReleaseResources-2 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.cc.ui-release-3 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\build\intermediates\merged_res\release\mergeReleaseResources
+com.cc.ui-main-4 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\src\main\res
+com.cc.ui-release-5 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\ui\src\release\res

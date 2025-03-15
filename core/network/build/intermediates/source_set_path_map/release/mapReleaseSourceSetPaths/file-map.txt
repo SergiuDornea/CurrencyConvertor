@@ -1,0 +1,6 @@
+com.cc.network-resValues-0 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\build\generated\res\resValues\release
+com.cc.network-mergeReleaseResources-1 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.cc.network-mergeReleaseResources-2 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.cc.network-release-3 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\build\intermediates\merged_res\release\mergeReleaseResources
+com.cc.network-main-4 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\src\main\res
+com.cc.network-release-5 C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\src\release\res
