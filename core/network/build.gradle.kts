@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.currencyconvertor.android.library)
     alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.currencyconvertor.android.hilt)
 }
 
 android {

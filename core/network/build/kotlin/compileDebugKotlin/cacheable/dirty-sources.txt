@@ -1,2 +1,0 @@
-C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\src\main\kotlin\com\cc\network\model\response\currency_converter\CurrencyConverterResponse.kt
-C:\Users\dorne\StudioProjects\CurrencyConvertor\core\network\src\main\kotlin\com\cc\network\model\response\currency_converter\ExchangeRatesResponse.kt
