@@ -12,4 +12,6 @@ dependencies {
     implementation(libs.retrofit.logger)
     implementation(libs.retrofit.kotlin.serialization)
     implementation(libs.kotlin.serialization.json)
+
+    implementation(project(":core:model"))
 }
