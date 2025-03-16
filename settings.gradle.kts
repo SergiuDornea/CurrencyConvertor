@@ -1,5 +1,6 @@
 pluginManagement {
     includeBuild("build-logic")
+    includeBuild("C:\\Users\\dorne\\StudioProjects\\CurrencyConvertor\\build-logic")
     repositories {
         google {
             content {
@@ -25,3 +26,4 @@ include(":app")
 include(":core")
 include(":core:network")
 include(":core:ui")
+include(":core:model")

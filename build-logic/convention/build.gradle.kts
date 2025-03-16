@@ -35,5 +35,9 @@ gradlePlugin {
             id = "currencyConvertor.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
+        register("jvmLibrary") {
+            id = "currencyconvertor.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
     }
 }

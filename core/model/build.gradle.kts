@@ -1,0 +1,1 @@
+plugins { alias(libs.plugins.currencyconvertor.jvm) }

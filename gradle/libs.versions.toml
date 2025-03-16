@@ -79,7 +79,7 @@ jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = 
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 currencyconvertor-android-library = { id = "currencyConvertor.android.library", version = "unspecified" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-moneyconvertor-jvm = { id = "moneyConvertor.jvm.library", version = "unspecified" }
+currencyconvertor-jvm = { id = "currencyconvertor.jvm.library", version = "unspecified" }
 moneyconvertor-android-hilt = { id = "moneyConvertor.android.hilt", version = "unspecified" }
 moneyconvertor-android-compose = { id = "moneyConvertor.android.compose", version = "unspecified" }
 moneyconvertor-android-feature = { id = "moneyConvertor.android.feature", version = "unspecified" }
