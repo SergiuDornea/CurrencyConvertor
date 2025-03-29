@@ -20,6 +20,7 @@ androidxLifecycle = "2.7.0"
 room = "2.6.1"
 workVersion = "2.9.0"
 kotlinxCoroutines = "1.8.0"
+googleSecrets = "2.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -84,3 +85,4 @@ currencyconvertor-android-hilt = { id = "currencyconvertor.android.hilt", versio
 moneyconvertor-android-compose = { id = "moneyConvertor.android.compose", version = "unspecified" }
 moneyconvertor-android-feature = { id = "moneyConvertor.android.feature", version = "unspecified" }
 moneyconvertor-android-room = { id = "moneyConvertor.android.room", version = "unspecified" }
+google-secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "googleSecrets" }

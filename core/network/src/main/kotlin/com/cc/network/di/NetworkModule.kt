@@ -1,5 +1,6 @@
 package com.cc.network.di
 
+import com.cc.network.BuildConfig
 import com.cc.network.constants.Constants
 import com.cc.network.interceptor.HeadersInterceptor
 import com.cc.network.service.CurrencyService
@@ -15,6 +16,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 
+
 @Module
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
@@ -29,7 +31,7 @@ object NetworkModule {
             .Builder()
             .addNetworkInterceptor(loggingInterceptor)
             //TODO add encrypted api key
-            .addNetworkInterceptor(HeadersInterceptor(mapOf("apiKey" to "api_key_encrypt")))
+            .addNetworkInterceptor(HeadersInterceptor(mapOf("apiKey" to BuildConfig.API_KEY)))
             .build()
     }
 
