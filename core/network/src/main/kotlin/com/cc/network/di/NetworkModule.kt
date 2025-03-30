@@ -30,7 +30,6 @@ object NetworkModule {
         return OkHttpClient
             .Builder()
             .addNetworkInterceptor(loggingInterceptor)
-            //TODO add encrypted api key
             .addNetworkInterceptor(HeadersInterceptor(mapOf("apiKey" to BuildConfig.API_KEY)))
             .build()
     }
