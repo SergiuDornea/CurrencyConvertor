@@ -45,5 +45,9 @@ gradlePlugin {
             id = "currencyconvertor.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
         }
+        register("androidLibraryCompose") {
+            id = "currencyconvertor.android.compose"
+            implementationClass = "AndroidLibraryComposeConventionPlugin"
+        }
     }
 }
